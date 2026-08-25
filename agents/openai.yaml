@@ -1,0 +1,4 @@
+interface:
+  display_name: "SEO/AEO Content Growth"
+  short_description: "Audit, prioritize, draft, and measure content growth"
+  default_prompt: "Use $grow-seo-aeo-content to audit this website, rank SEO/AEO opportunities, and propose a measurable content plan."
