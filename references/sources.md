@@ -7,10 +7,8 @@ This registry records the material used to evolve the skill. It preserves proven
 ### SRC-001 — How I built an SEO/AEO blog engine
 
 - Author: Harsehaj
-- Published: 2026-08-22 on Substack; shared as an X article/thread on 2026-08-24
-- Canonical long-form version: https://harsehaj.substack.com/p/how-i-built-an-seoaeo-blog-engine
-- X version: https://x.com/harsehaj/status/2091690736211112005
-- Relationship: The X and Substack URLs are two presentations of the same underlying article, not independent corroborating sources.
+- Published: 2026-08-22
+- Original article: https://harsehaj.substack.com/p/how-i-built-an-seoaeo-blog-engine
 - Context: A first-person implementation report about BlogEO, built during a Browserbase growth-engineering internship.
 - Principles incorporated:
   - Rank audit work by recoverable clicks, CTR headroom, and ranking headroom rather than content age alone.
@@ -29,7 +27,7 @@ This registry records the material used to evolve the skill. It preserves proven
 Assign the next `SRC-NNN` identifier and record:
 
 - title, author, publication date, and canonical URL;
-- mirrors or reposts and their relationship to the canonical source;
+- one canonical original URL; add a fallback URL only when the original is unavailable;
 - source type and implementation context;
 - principles incorporated, rejected, or held as alternatives;
 - reported outcomes and explicit limitations;
