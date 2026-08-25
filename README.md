@@ -39,14 +39,13 @@ Use $grow-seo-aeo-content to audit this website, rank SEO/AEO opportunities, and
 
 This is an evolving skill. Its initial workflow was distilled from Harsehaj's first-person implementation report about BlogEO at Browserbase:
 
-- [How I built an SEO/AEO blog engine — Substack, canonical long-form version](https://harsehaj.substack.com/p/how-i-built-an-seoaeo-blog-engine)
-- [How I built an SEO/AEO blog engine — X version](https://x.com/harsehaj/status/2091690736211112005)
+- [How I built an SEO/AEO blog engine — original article](https://harsehaj.substack.com/p/how-i-built-an-seoaeo-blog-engine)
 
-These two URLs present the same underlying article; they are not independent corroborating sources. See [`references/sources.md`](references/sources.md) for the principles incorporated, reported outcomes, limitations, and the parts of the skill they influenced.
+See [`references/sources.md`](references/sources.md) for the principles incorporated, reported outcomes, limitations, and the parts of the skill this article influenced.
 
 Future articles, papers, threads, talks, and implementation reports can be incorporated iteratively. Each revision should:
 
-1. preserve the canonical source link and distinguish mirrors from independent evidence;
+1. preserve only the author's canonical original link by default;
 2. extract testable principles, assumptions, limitations, and reported outcomes;
 3. compare the new material with the current workflow, retaining meaningful disagreements;
 4. update the smallest appropriate instruction, reference, or script;
