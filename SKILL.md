@@ -1,11 +1,25 @@
 ---
 name: grow-seo-aeo-content
-description: "Audit and grow a website's SEO and answer-engine visibility through a measurable content loop: inventory pages, combine search/analytics/CMS data, rank recovery/CTR/ranking/content-gap opportunities, propose surgical edits, draft evidence-grounded articles, add human approval gates, and measure 28/56-day outcomes. Use for SEO audits, AEO/GEO/LLM citation analysis, content decay, low-CTR pages, keyword gaps, editorial planning, content refreshes, AI-assisted blog generation, or building a recurring content-growth engine."
+description: "Audit and grow a website's SEO and answer-engine visibility through a measurable content loop: inventory pages, combine search/analytics/CMS data, rank recovery/CTR/ranking/content-gap opportunities, propose surgical edits, draft evidence-grounded articles, add human approval gates, and measure 28/56-day outcomes. Use for SEO audits, AEO/GEO/LLM citation analysis, content decay, low-CTR pages, keyword gaps, editorial planning, content refreshes, AI-assisted blog generation, building a recurring content-growth engine, or incorporating newly supplied SEO/AEO source articles into this evolving skill."
 ---
 
 # Grow SEO/AEO Content
 
 Build a closed loop from evidence to measured outcomes. Treat AI as a reader, analyst, and drafter; do not let it publish or mutate production content directly.
+
+## Evolve from source material
+
+When the user supplies a new article, paper, thread, talk, or implementation report for this skill:
+
+1. Read the complete source and retain its canonical URL.
+2. Distinguish original sources from mirrors, reposts, commentary, and independent corroboration.
+3. Extract testable principles, implementation patterns, assumptions, limitations, and reported outcomes.
+4. Compare them with the current workflow; preserve useful disagreements instead of forcing consensus.
+5. Update the smallest appropriate part of `SKILL.md`, a reference, or a script. Do not paste article summaries into the core instructions when a concise rule is sufficient.
+6. Add or update the source entry in `references/sources.md`, including what changed in the skill.
+7. Validate the skill and test changed scripts before publishing the revision.
+
+Read `references/sources.md` when tracing why a rule exists, evaluating conflicting advice, or incorporating new source material. Never represent a source's reported result as a universal benchmark.
 
 ## Choose the operating mode
 
