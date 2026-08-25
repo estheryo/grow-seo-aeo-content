@@ -12,7 +12,7 @@ Build a closed loop from evidence to measured outcomes. Treat AI as a reader, an
 When the user supplies a new article, paper, thread, talk, or implementation report for this skill:
 
 1. Read the complete source and retain its canonical URL.
-2. Distinguish original sources from mirrors, reposts, commentary, and independent corroboration.
+2. Record only the author's canonical original URL by default. Use an alternative URL only when the original is unavailable, and label it as a fallback.
 3. Extract testable principles, implementation patterns, assumptions, limitations, and reported outcomes.
 4. Compare them with the current workflow; preserve useful disagreements instead of forcing consensus.
 5. Update the smallest appropriate part of `SKILL.md`, a reference, or a script. Do not paste article summaries into the core instructions when a concise rule is sufficient.
