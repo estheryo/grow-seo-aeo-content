@@ -1,0 +1,4 @@
+interface:
+  display_name: "Win AI Search Citations"
+  short_description: "Earn citations and recommendations in AI search"
+  default_prompt: "Use $win-ai-search-citations to audit my site and create a prioritized plan for earning AI-search citations."
