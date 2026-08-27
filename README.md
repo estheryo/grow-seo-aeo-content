@@ -2,6 +2,8 @@
 
 This repository contains reusable Codex skills for measurable SEO and AI-search growth.
 
+[中文说明](README.zh-CN.md)
+
 ## Skills
 
 ### `grow-seo-aeo-content`
@@ -11,8 +13,6 @@ The repository root is a broad content-growth skill. It runs an inventory, prior
 ### `win-ai-search-citations`
 
 [`skills/win-ai-search-citations`](skills/win-ai-search-citations) is a separate, narrower skill for earning citations and recommendations in Google AI features, ChatGPT, Claude, Perplexity, and similar answer engines. It benchmarks the pages already being cited, maps prompts to canonical pages, creates claim-sized evidence blocks, strengthens independent validation, and measures citations separately from impressions, clicks, leads, and revenue.
-
-The root skill helps an agent:
 
 It helps an agent:
 
@@ -61,11 +61,25 @@ Use $win-ai-search-citations to benchmark the pages AI engines cite for our prio
 
 ## Source articles and evolution
 
-This is an evolving skill. Its initial workflow was distilled from Harsehaj's first-person implementation report about BlogEO at Browserbase:
+This is an evolving collection. The current skills were distilled from these canonical original articles and posts:
+
+### `grow-seo-aeo-content`
 
 - [How I built an SEO/AEO blog engine — original article](https://harsehaj.substack.com/p/how-i-built-an-seoaeo-blog-engine)
 
-See [`references/sources.md`](references/sources.md) for the principles incorporated, reported outcomes, limitations, and the parts of the skill this article influenced.
+See [`references/sources.md`](references/sources.md) for the principles, reported outcomes, limitations, and workflow rules influenced by this article.
+
+### `win-ai-search-citations`
+
+- [Vendor blogs as AI citation sources — Alex Groberman](https://x.com/alexgroberman/status/2092607970274378041)
+- [Local business visibility across Google and AI search — Alex Groberman](https://x.com/alexgroberman/status/2092248243568865453)
+- [How Claude discovers and cites sources — Alex Groberman](https://x.com/alexgroberman/status/2091910002315518357)
+- [Measuring generative-AI visibility in Search Console — Alex Groberman](https://x.com/alexgroberman/status/2091554033949626719)
+- [ChatGPT citation study interpretation — Alex Groberman](https://x.com/alexgroberman/status/2091524620591739233)
+- [Google Discovery Engine interpretation — Alex Groberman](https://x.com/alexgroberman/status/2012536184023462013)
+- [Benchmark pages answer engines already cite — Jared Winger](https://x.com/BuildWithJared/status/2092718076479639713)
+
+See [`skills/win-ai-search-citations/references/sources.md`](skills/win-ai-search-citations/references/sources.md) for the method each source influenced and the caveats applied to reported claims.
 
 Future articles, papers, threads, talks, and implementation reports can be incorporated iteratively. Each revision should:
 
