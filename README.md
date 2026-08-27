@@ -1,6 +1,18 @@
-# grow-seo-aeo-content
+# SEO/AEO Skills
 
-A reusable Codex skill for running a measurable SEO/AEO content growth loop.
+This repository contains reusable Codex skills for measurable SEO and AI-search growth.
+
+## Skills
+
+### `grow-seo-aeo-content`
+
+The repository root is a broad content-growth skill. It runs an inventory, prioritization, drafting, approval, publishing, and measurement loop.
+
+### `win-ai-search-citations`
+
+[`skills/win-ai-search-citations`](skills/win-ai-search-citations) is a separate, narrower skill for earning citations and recommendations in Google AI features, ChatGPT, Claude, Perplexity, and similar answer engines. It benchmarks the pages already being cited, maps prompts to canonical pages, creates claim-sized evidence blocks, strengthens independent validation, and measures citations separately from impressions, clicks, leads, and revenue.
+
+The root skill helps an agent:
 
 It helps an agent:
 
@@ -24,6 +36,18 @@ Then invoke it with:
 
 ```text
 Use $grow-seo-aeo-content to audit this website, rank SEO/AEO opportunities, and propose a measurable content plan.
+```
+
+To install the separate citation skill, copy or symlink its directory into your Codex skills directory:
+
+```bash
+ln -s "$(pwd)/skills/win-ai-search-citations" ~/.codex/skills/win-ai-search-citations
+```
+
+Then invoke it with:
+
+```text
+Use $win-ai-search-citations to benchmark the pages AI engines cite for our priority prompts and create a prioritized citation plan.
 ```
 
 ## Contents
