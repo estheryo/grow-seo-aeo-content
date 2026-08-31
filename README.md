@@ -66,6 +66,7 @@ This is an evolving collection. The current skills were distilled from these can
 ### `grow-seo-aeo-content`
 
 - [How I built an SEO/AEO blog engine — original article](https://harsehaj.substack.com/p/how-i-built-an-seoaeo-blog-engine)
+- [How to win search in 2026 (Google, AI & everywhere else) — Jake Ward](https://x.com/jakezward/status/2093320636743512116)
 
 See [`references/sources.md`](references/sources.md) for the principles, reported outcomes, limitations, and workflow rules influenced by this article.
 
