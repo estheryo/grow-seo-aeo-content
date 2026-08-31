@@ -63,6 +63,7 @@ ln -s "$(pwd)/skills/win-ai-search-citations" ~/.codex/skills/win-ai-search-cita
 ### `grow-seo-aeo-content`
 
 - [How I built an SEO/AEO blog engine — Harsehaj 原始文章](https://harsehaj.substack.com/p/how-i-built-an-seoaeo-blog-engine)
+- [如何在 2026 年赢得搜索（Google、AI 与其他渠道）— Jake Ward](https://x.com/jakezward/status/2093320636743512116)
 
 详细的原则、结果、限制与影响范围记录在 [`references/sources.md`](references/sources.md)。
 
