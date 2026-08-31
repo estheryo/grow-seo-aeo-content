@@ -35,6 +35,14 @@ Never imply access to private analytics that was not provided. Separate observed
 
 Record the domain, locales, page types, audience, conversion goals, product documentation sources, comparison window, and available data. Prefer 28-day windows with a preceding 28-day comparison.
 
+Map the **Total Addressable Search Market**: every commercially relevant search or question the organization could realistically win or influence. Cover three connected surfaces:
+
+- **Google**: category, high-intent, comparison, alternative, problem, use-case, and AI Overview queries.
+- **AI search**: recommendations, comparisons, category and problem prompts, competitor questions, and likely follow-ups across relevant answer engines.
+- **Influence sources**: reviews, Reddit, YouTube, LinkedIn, publications, directories, comparison sites, and communities that repeatedly shape those results or buyer decisions.
+
+Prioritize commercial relevance over list size. Establish a coverage baseline: the proportion of the mapped market where the brand has a useful owned page, meaningful search visibility, accurate AI presence, or credible third-party inclusion. Keep the component measures visible; do not hide them behind a single composite score.
+
 Inventory canonical URLs from the CMS or sitemap. For each URL capture page type, publish/update dates, title, description, canonical, robots state, headings, word count, links, images, structured data, and content owner when available.
 
 ### 2. Run cheap checks across every page
@@ -83,7 +91,15 @@ Give the agent no CMS write or publish tool. Persist suggestions with before-sta
 
 Only consider unattended fixes for deterministic, reversible cases such as filling an empty metadata field from an approved value or replacing a dead link with a verified canonical successor. Keep an audit log and rollback value.
 
-### 7. Measure causally
+### 7. Influence the sources you do not own
+
+Separate the market into what the organization owns—website, commercial pages, content, documentation, and technical foundations—and what it can only influence—reviews, communities, publications, directories, videos, and independent comparisons.
+
+For each priority commercial query or prompt, record which third-party sources repeatedly appear, which brands they include, and whether the target brand is accurately represented. Prioritize opportunities on two dimensions: frequency across commercially valuable results and likely influence on buyer consideration.
+
+Earn inclusion through useful original data, quotable expert commentary, strong review profiles, transparent comparison evidence, legitimate publisher relationships, and genuine community participation. Do not recommend fake accounts, undisclosed paid endorsements, review manipulation, or low-quality listicle placement.
+
+### 8. Measure causally
 
 At publication, save the page's prior 28-day metrics and site-wide metrics over the same dates. Re-read at +28 and +56 days. Compare page change with the site-wide change so a general algorithmic or seasonal lift is not misattributed.
 
@@ -97,7 +113,9 @@ Track AEO as separate layers:
 
 Do not treat AI referral traffic as proof of citation, or citation as proof of conversion.
 
-### 8. Deliver an actionable report
+Treat prompts as a portfolio rather than a handful of spot checks. For each stable prompt set, track presence, position, recommendation strength, description accuracy, sentiment, citations, and competitors. Use weak results diagnostically: inspect the owned-page, evidence, review, and third-party-source gaps that may explain the difference.
+
+### 9. Deliver an actionable report
 
 Produce:
 
@@ -105,8 +123,9 @@ Produce:
 2. Evidence table with URL, observed issue, source, confidence, and severity.
 3. Ranked queue with primary lever, rationale, recommended change, owner, and success metric.
 4. Content-gap plan with target intent, evidence of demand, canonical owner, sources, and cannibalization result.
-5. Measurement plan with baseline and +28/+56 checkpoints.
-6. Automation design only when requested, including approval and rollback boundaries.
+5. Search-market map with owned coverage, external influence sources, competitor presence, and commercial priority.
+6. Measurement plan with baseline and +28/+56 checkpoints.
+7. Automation design only when requested, including approval and rollback boundaries.
 
 Use `references/report-template.md` for the report schema. Keep observed facts distinct from modeled estimates.
 
