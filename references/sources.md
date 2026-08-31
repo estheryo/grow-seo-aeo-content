@@ -22,6 +22,25 @@ This registry records the material used to evolve the skill. It preserves proven
 - Limitations reported: Opportunity estimates are soft; crawl measurement was deferred; expensive fact checking was rationed; AI citation data relied on manual CSV export.
 - Skill areas influenced: opportunity scoring, generation gates, publishing safety, measurement, AEO layers, cost controls, and weekly operating cadence.
 
+### SRC-002 — How to win search in 2026 (Google, AI & everywhere else)
+
+- Author: Jake Ward
+- Published: 2026-08-28
+- Original article: https://x.com/jakezward/status/2093320636743512116
+- Context: A strategic organic-growth playbook arguing that search has fragmented across Google, answer engines, communities, video, reviews, and publications rather than being replaced by a separate AI-search discipline.
+- Principles incorporated:
+  - Map a Total Addressable Search Market across Google queries, AI prompts, and third-party influence sources.
+  - Limit the map to commercially relevant demand and measure coverage instead of rewarding keyword-list or publishing volume.
+  - Separate surfaces the organization owns from sources it can only influence.
+  - Match each demand type to the appropriate category, comparison, alternative, use-case, product, documentation, or guide page.
+  - Prioritize pages closest to revenue before expanding top-of-funnel coverage.
+  - Reverse-engineer recurring external sources and prioritize them by commercial visibility and buyer influence.
+  - Treat AI prompts as a tracked portfolio and measure presence, position, recommendation, accuracy, sentiment, citations, and competitors.
+  - Operate a repeating Map–Build–Influence–Measure loop.
+- Reported examples: The author described one B2B SaaS analysis with visibility in 24 of 2,280 commercially relevant topics and another site with more than 93% of roughly 2,000 articles at the top of the funnel. Treat these as illustrative client observations, not general benchmarks.
+- Limitations and interpretations: The article is a practitioner framework, not a controlled causal study. “Consensus creates confidence” and the proposed Known in Search Score are useful hypotheses and measurement models, not confirmed universal ranking factors. Google, AI systems, and third-party platforms must retain separate component metrics.
+- Skill areas influenced: market definition and baseline, commercial prioritization, owned-versus-influenced execution, prompt measurement, reporting, and recurring operating cadence.
+
 ## Adding a source
 
 Assign the next `SRC-NNN` identifier and record:
