@@ -1,0 +1,4 @@
+interface:
+  display_name: "People-First Content"
+  short_description: "Create reliable, original content that earns trust"
+  default_prompt: "Use $create-people-first-content to audit and improve this article before publication."

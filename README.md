@@ -24,6 +24,10 @@ It helps an agent:
 - measure page outcomes at +28 and +56 days against a site-wide control;
 - track AI crawl/discovery, citations, and referrals separately.
 
+### `create-people-first-content`
+
+[`skills/create-people-first-content`](skills/create-people-first-content) is a separate editorial-quality skill for creating, reviewing, and revising helpful, reliable, people-first content. It turns audience fit, evidence, first-hand experience, information gain, authorship, factual verification, and search-engine-first risks into explicit publication gates.
+
 ## Install
 
 Clone this repository into your Codex skills directory:
@@ -48,6 +52,18 @@ Then invoke it with:
 
 ```text
 Use $win-ai-search-citations to benchmark the pages AI engines cite for our priority prompts and create a prioritized citation plan.
+```
+
+To install the people-first content skill:
+
+```bash
+ln -s "$(pwd)/skills/create-people-first-content" ~/.codex/skills/create-people-first-content
+```
+
+Then invoke it with:
+
+```text
+Use $create-people-first-content to audit this article, decide whether it is ready to publish, and provide an exact repair list.
 ```
 
 ## Contents
@@ -81,6 +97,12 @@ See [`references/sources.md`](references/sources.md) for the principles, reporte
 - [Benchmark pages answer engines already cite — Jared Winger](https://x.com/BuildWithJared/status/2092718076479639713)
 
 See [`skills/win-ai-search-citations/references/sources.md`](skills/win-ai-search-citations/references/sources.md) for the method each source influenced and the caveats applied to reported claims.
+
+### `create-people-first-content`
+
+- [什么是 Google HCU？如何创建实用、可靠、以用户为中心的内容 — Loki Yan SEO](https://x.com/loki_yan_seo/status/2094576318788833400)
+
+See [`skills/create-people-first-content/references/sources.md`](skills/create-people-first-content/references/sources.md) for the adopted quality gates, primary-source verification, and excluded speculative claims.
 
 Future articles, papers, threads, talks, and implementation reports can be incorporated iteratively. Each revision should:
 

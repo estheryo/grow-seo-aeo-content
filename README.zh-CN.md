@@ -32,6 +32,19 @@
 - 补齐比较、替代方案、价格、用例、行业、实施、案例和文档等购买阶段；
 - 分开衡量展现、引用、点击、线索和收入。
 
+### `create-people-first-content`
+
+位于 [`skills/create-people-first-content`](skills/create-people-first-content)，是一个独立的单篇内容质量 Skill，用于创建、审核和改写实用、可靠、以用户为中心的内容。
+
+它会把以下要求转换成明确的发布门禁：
+
+- 目标受众和读者任务；
+- 证据、第一手经验与原创信息增量；
+- 作者、审核者及内容生产方式；
+- 事实核验、标题准确性和内容完整度；
+- AI 生成内容的人类复核；
+- 自动化摘要、追逐流量、虚假更新等“搜索引擎优先”风险。
+
 ## 安装
 
 安装根目录的内容增长 Skill：
@@ -58,6 +71,18 @@ ln -s "$(pwd)/skills/win-ai-search-citations" ~/.codex/skills/win-ai-search-cita
 使用 $win-ai-search-citations 分析目标问题中已被 AI 引用的页面，并制定优先级明确的引用增长计划。
 ```
 
+安装独立的“以用户为中心内容” Skill：
+
+```bash
+ln -s "$(pwd)/skills/create-people-first-content" ~/.codex/skills/create-people-first-content
+```
+
+调用方式：
+
+```text
+使用 $create-people-first-content 审核这篇文章，判断是否达到发布标准，并给出精确的修复清单。
+```
+
 ## 来源文章
 
 ### `grow-seo-aeo-content`
@@ -78,6 +103,12 @@ ln -s "$(pwd)/skills/win-ai-search-citations" ~/.codex/skills/win-ai-search-cita
 - [对比回答引擎已经引用的获胜页面 — Jared Winger](https://x.com/BuildWithJared/status/2092718076479639713)
 
 每篇来源具体影响了哪些规则，以及对来源中数字和推断的限制，记录在 [`skills/win-ai-search-citations/references/sources.md`](skills/win-ai-search-citations/references/sources.md)。
+
+### `create-people-first-content`
+
+- [什么是 Google HCU？如何创建实用、可靠、以用户为中心的内容 — Loki Yan SEO](https://x.com/loki_yan_seo/status/2094576318788833400)
+
+采用的内容质量门禁、Google 官方资料核验以及未采纳的推测性结论，记录在 [`skills/create-people-first-content/references/sources.md`](skills/create-people-first-content/references/sources.md)。
 
 来源管理默认遵循以下规则：
 
